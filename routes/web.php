@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\CentralController;
@@ -20,4 +21,8 @@ Route::prefix('users')->group(function () {
  Route::delete('user/{id}',[UserController::class,'destroy'])->name('users.destroy');
  Route::get('/trashedUsers',[UserController::class,'trashedUsers'])->name('users.trashedUsers');
  Route::delete('userTrashed/{id}',[UserController::class,'clearAll'])->name('users.clearAll');
+ Route::get('restore/{id}',[UserController::class,'restore'])->name('users.restore');
+});
+Route::prefix('products')->group(function () {
+Route::get('/',[ProductController::class,'index'])->name('products.index');
 });

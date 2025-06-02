@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <title>to-do-list</title>
+    <title>shoppingStore</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
@@ -57,7 +57,7 @@
             <div class="col-12">
                 <nav class="main-nav">
                     <a href="index.html" class="logo" style="width: 5%">
-                        <img src="{{asset('assets/images/logo.png')}}" alt="Chain App Dev">
+                        <img src="{{asset('assets/images/shop.png')}}" alt="Chain App Dev">
                     </a>
                     <ul class="nav">
                         <li class="scroll-to-section"><a href="" class="active">صفحه اصلی</a></li>
@@ -178,8 +178,8 @@
                         <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h2>با کمک ما وظایفتان را مدیریت و سازماندهی کنید</h2>
-                                    <p>ما در این سایت به شما کمک میکنیم تا بتوانید وظایف و کارهای روزمره را با نظم و قانون پیش ببرید.</p>
+                                    <h2>فروشگاه مواد غذایی  افرا</h2>
+                                    <p>ما اینجا هستیم تا فقط بهترین محصولات را برای شما ارائه دهیم.</p>
                                 </div>
 
                             </div>

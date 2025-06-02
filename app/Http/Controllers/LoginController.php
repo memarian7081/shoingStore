@@ -13,7 +13,7 @@ class LoginController extends Controller
 {
     public function index()
     {
-         return view('Authentication.register');
+         return view('panelAdmin.Authentication.register');
     }
     public function store(StoreUserRequest $request){
 
@@ -33,7 +33,7 @@ class LoginController extends Controller
     }
     public function login(){
         $users = User::all();
-        return view('Authentication.login',compact('users'));
+        return view('panelAdmin.Authentication.login',compact('users'));
     }
 
     public function loginUser(Request $request){

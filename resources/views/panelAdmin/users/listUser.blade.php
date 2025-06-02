@@ -1,6 +1,7 @@
 @extends('layouts.app')
 @section('content')
     <div class="table-responsive">
+        <a href="{{route('users.trashedUsers')}}" style="text-decoration: none;direction: rtl;margin: 2% 5%;font-size: 2rem;background-color: #66aede;color: white;">کاربران حذف شده</a>
         <table class="table table-bordered text-center">
             <thead class="thead-light">
             <tr>
@@ -20,12 +21,20 @@
                     <td>{{ $user->email }}</td>
                     <td>{{$user->phone}}</td>
                     <td>
+                        <form action="" method="post">
+                            @csrf
+                            @method('PUT')
+                            <button class="btn btn-secondary">ویرایش</button>
+                        </form>
+                    </td>
+                    <td>
                         <form action="{{route('users.destroy',$user->id)}}" method="post">
                             @csrf
                             @method('DELETE')
                             <button class="btn btn-danger" type="submit">حذف</button>
                         </form>
                     </td>
+
 
                 </tr>
             @endforeach

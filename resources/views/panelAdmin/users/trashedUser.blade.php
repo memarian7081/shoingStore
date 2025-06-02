@@ -10,6 +10,7 @@
                 <th style="width: 10%; font-weight: bold; font-size: 2rem;">ایمیل</th>
                 <th style="width: 10%; font-weight: bold; font-size: 2rem;">تلفن</th>
                 <th style="width: 10% ;font-weight: bold; font-size: 2rem;;">عملیات</th>
+                <th style="width: 10% ;font-weight: bold; font-size: 2rem;;">بازیابی</th>
 
             </tr>
             </thead>
@@ -25,6 +26,12 @@
                             @csrf
                             @method('DELETE')
                             <button class="btn btn-warning">حذف دائمی</button>
+                        </form>
+                    </td>
+                    <td>
+                        <form action="{{route('users.restore',$user->id)}}" method="get">
+                            @csrf
+                            <button type="submit" class="btn btn-secondary">بازیابی</button>
                         </form>
                     </td>
 
