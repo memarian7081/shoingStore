@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\CentralController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\FilterController;
+
 
 
 
@@ -29,4 +31,14 @@ Route::prefix('products')->group(function () {
 Route::get('/',[ProductController::class,'index'])->name('products.index');
 Route::get('/drink',[ProductController::class,'showDrinks'])->name('products.drink');
 Route::get('view',[ProductController::class,'viewProducts'])->name('products.view');
+Route::get('/create',[ProductController::class,'create'])->name('products.create');
+Route::post('/store',[ProductController::class,'store'])->name('products.store');
+});
+Route::prefix('dashboard')->group(function () {
+    Route::prefix('filter')->group(function () {
+          Route::get('filterFoods',[FilterController::class,'filterFoods'])->name('filter.foods');
+          Route::get('filterDrinks',[FilterController::class,'filterDrinks'])->name('filter.drinks');
+          Route::get('filterCanned',[FilterController::class,'filterCanned'])->name('filter.canned');
+          Route::get('filterDetergents',[FilterController::class,'filterDetergent'])->name('filter.detergents');
+    });
 });

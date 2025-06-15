@@ -30,7 +30,8 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+        return view('panelAdmin.products.create');
+
     }
 
     /**
@@ -38,7 +39,20 @@ class ProductController extends Controller
      */
     public function store(StoreProductRequest $request)
     {
-        //
+        $validated = $request->validated();
+        if ($request->hasFile('image')) {
+            $filePath = $request->file('image')->store('images', 'public');
+        }
+        $products = Product::create([
+            'name' => $validated['name'],
+            'price' => $validated['price'],
+            'description' => $validated['description'],
+            'image' => $filePath,
+            'category_id' => $validated['category_id'],
+            'discount' =>$validated['discount'],
+            'quantity' => $validated['quantity'],
+        ]);
+        return redirect()->route('products.view');
     }
 
     /**

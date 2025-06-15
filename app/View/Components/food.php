@@ -12,10 +12,10 @@ class food extends Component
     /**
      * Create a new component instance.
      */
-    public $food;
+    public $foods;
     public function __construct()
     {
-        return $this->food = Product::where('category_id', 2)->get();
+        $this->foods = Product::where('category_id', 1)->get();
     }
 
     /**

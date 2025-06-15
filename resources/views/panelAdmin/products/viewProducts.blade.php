@@ -2,7 +2,7 @@
 @section('content')
     <div class="row" >
 @foreach($products as $product)
-        <div class="col-sm-6 col-md-6 col-lg-4 ">
+        <div class="col-sm-6 col-md-4 col-lg-4 ">
             <div class="card shadow"  >
                 <img src="{{asset('storage/'.$product->image)}}" class="card-img-top rounded-top" alt="Themesberg office">
                 <div class="card-body">

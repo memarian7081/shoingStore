@@ -61,6 +61,7 @@
                     </a>
                     <ul class="nav">
                         <li class="scroll-to-section"><a href="" class="active">صفحه اصلی</a></li>
+                        <li><a href="{{route('filter.foods')}}">غذاها</a></li>
                         <li class="scroll-to-section"><a href="">افزودن تسک</a></li>
                         <li class="scroll-to-section"><a href="{{route('users.index')}}">لیست کاربران</a></li>
                         <li class="scroll-to-section"><a href="{{route('users.trashedUsers')}}">تسک ها</a></li>
