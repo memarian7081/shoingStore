@@ -16,6 +16,14 @@ class ProductController extends Controller
         $products = Product::with('category')->get();
         return view('panelAdmin.products.viewProducts',compact('products'));
     }
+    public function showDrinks(){
+//        $drinks = Product::where('category_id', 1)->get();
+//        dd($drinks);
+        return view('panelAdmin.products.filter.drink');
+    }
+    public function viewProducts(){
+        return view('panelAdmin.products.filter.showFilter');
+    }
 
     /**
      * Show the form for creating a new resource.

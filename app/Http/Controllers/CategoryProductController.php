@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\StoreCategoryProductRequest;
 use App\Http\Requests\UpdateCategoryProductRequest;
 use App\Models\CategoryProduct;
+use App\Models\Product;
 
 class CategoryProductController extends Controller
 {
@@ -13,7 +14,15 @@ class CategoryProductController extends Controller
      */
     public function index()
     {
-        //
+        $categories = CategoryProduct::with('products')->get();
+        return view('panelAdmin.category.show', compact('categories'));
+
+    }
+    public function showDrink(CategoryProduct $categoryProduct){
+        $drinks = Product::where('category_id', 1);
+        $foods = Product::where('category_id', 2);
+        $detergent = Product::where('category_id', 3);
+        $cannedFood = Product::where('category_id', 4);
     }
 
     /**

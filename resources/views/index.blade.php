@@ -5,9 +5,9 @@
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <h4>Amazing <em>Services &amp; Features</em> for you</h4>
+                        <h4> <em>دسته بندی محصولات</em></h4>
                         <img src="assets/images/heading-line-dec.png" alt="">
-                        <p>If you need the greatest collection of HTML templates for your business, please visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">TooCSS</a> Blog. If you need to have a contact form PHP script, go to <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more information.</p>
+                        <p>تجربه خریدی فوق العاده در فروشگاه ما <a rel="nofollow" href="https://www.toocss.com/" target="_blank"></a> </p>
                     </div>
                 </div>
             </div>
@@ -15,40 +15,44 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="service-item first-service">
+                    <div class="service-item ">
+                        <img src="assets/images/orange-juice.png" alt="" style="width: 20%">
                         <div class="icon"></div>
-                        <h4>App Maintenance</h4>
-                        <p>You are not allowed to redistribute this template ZIP file on any other website.</p>
+                        <h4>نوشیدنی</h4>
+                        <p>در  این پلتفرم  اکسپرس شما می‌توانید مجموعه‌های خوشنام و بزرگی را مشاهده کند که با انواع و اقسام نوشیدنی‌های خود، شما را به وجد خواهند آورد. کاله، وارنا، آپادا، رامک، عالیس، سن ایچ، چوپان، میهن، دومینو، پگاه و غیره جزء برندهای معتبر موجود در این پلتفرم هستند.</p>
                         <div class="text-button">
                             <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="service-item second-service">
+                    <div class="service-item ">
+                        <img src="assets/images/foods.jpg" alt="" style="width: 20%">
                         <div class="icon"></div>
-                        <h4>Rocket Speed of App</h4>
-                        <p>You are allowed to use the Chain App Dev HTML template. Feel free to modify or edit this layout.</p>
+                        <h4>مواد غذایی</h4>
+                        <p>کالاهای سوپرمارکتی جزو مهم‌ترین و پر تنوع‌ترین محصولات کاربردی هستند. هر نوع کالای سوپرمارکتی که به آن نیاز دارید، در دیجی کالا موجود است؛ از انواع محصولات روزمره مثل خوار و بار و مواد پروتئینی گرفته تا هر محصول مرتبط به پذیرایی مثل دمنوش‌ها، نوشیدنی‌ها، شیرینی و خشکبار و انواع تنقلات.</p>
                         <div class="text-button">
                             <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="service-item third-service">
+                    <div class="service-item ">
+                        <img src="assets/sh.webp" alt="" style="width: 40%">
                         <div class="icon"></div>
-                        <h4>Multi Workflow Idea</h4>
-                        <p>If this template is beneficial for your work, please support us <a rel="nofollow" href="https://paypal.me/templatemo" target="_blank">a little via PayPal</a>. Thank you.</p>
+                        <h4>شوینده و بهداشتی</h4>
+                        <p> در فروشگاه دیجی کالا می‌توانید انواع دستمال نظافت یکبار مصرف یا دستکش نظافت از جمله وسایل مناسب برای بهداشت خانگی را خریداری کنید. این محصولات به شکلی طراحی شده‌اند تا ضدحساسیت باشند.</p>
                         <div class="text-button">
                             <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="service-item fourth-service">
+                    <div class="service-item ">
+                        <img src="assets/images/canned food.jpeg" alt="" style="width: 40%">
                         <div class="icon"></div>
-                        <h4>24/7 Help &amp; Support</h4>
-                        <p>Lorem ipsum dolor consectetur adipiscing elit sedder williamsburg photo booth quinoa and fashion axe.</p>
+                        <h4>کنسرو و غذای آماده</h4>
+                        <p>گاهی اوقات مشغله‌های زندگی آنقدر زیاد می‌شود که زمان زیادی برای آماده کردن غذا باقی نمی‌ماند. در این شرایط، در نظر گرفتن انواع کنسرو و غذای آماده می‌تواند بسیار مفید باشد و به شما کمک کند که در کمترین زمان ممکن غذا فراهم کنید. </p>
                         <div class="text-button">
                             <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
                         </div>
@@ -63,9 +67,9 @@
             <div class="row">
                 <div class="col-lg-6 align-self-center">
                     <div class="section-heading">
-                        <h4>About <em>What We Do</em> &amp; Who We Are</h4>
+                        <h4>ما در این فروشگاه چه خدماتی را عرضه میکنیم</h4>
                         <img src="assets/images/heading-line-dec.png" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+                        <p>در این فروشگاه ما از بهترین برند ها برای شما محصولات را عرضه نموده ایممو</p>
                     </div>
                     <div class="row">
                         <div class="col-lg-6">
@@ -136,38 +140,11 @@
                                                     <div class="col-lg-4 col-sm-4 d-none d-sm-block">
                                                         <span class="category">Financial Apps</span>
                                                     </div>
-                                                    <div class="col-lg-4 col-sm-4 col-12">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <span class="rating">4.8</span>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
-                                        <div>
-                                            <div class="thumb">
-                                                <div class="row">
-                                                    <div class="col-lg-4 col-sm-4 col-12">
-                                                        <h4>Jake Harris Nyo</h4>
-                                                        <span class="date">29 November 2021</span>
-                                                    </div>
-                                                    <div class="col-lg-4 col-sm-4 d-none d-sm-block">
-                                                        <span class="category">Digital Business</span>
-                                                    </div>
-                                                    <div class="col-lg-4 col-sm-4 col-12">
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <i class="fa fa-star"></i>
-                                                        <span class="rating">4.5</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                     
                                         <div>
                                             <div class="thumb">
                                                 <div class="row">

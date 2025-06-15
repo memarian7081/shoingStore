@@ -13,6 +13,9 @@ class UserController extends Controller
         return view('panelAdmin.users.listUser',compact('users'));
 
     }
+    public function create(){
+        return view('panelAdmin.users.create');
+    }
     public function destroy($id){
         $user=User::findOrFail($id);
         $user->delete();
@@ -32,8 +35,10 @@ class UserController extends Controller
         $user->restore();
         return redirect()->route('users.index');
     }
-    public function edit()
+    public function edit($id)
     {
+        $user = User::findOrFail($id);
+        return view('panelAdmin.users.edit',compact('user'));
 
     }
 }

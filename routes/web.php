@@ -18,11 +18,15 @@ Route::prefix('/Authentication')->group(function () {
 });
 Route::prefix('users')->group(function () {
  Route::get('/',[UserController::class,'listUsers'])->name('users.index');
+ Route::get('/create',[UserController::class,'create'])->name('users.create');
  Route::delete('user/{id}',[UserController::class,'destroy'])->name('users.destroy');
  Route::get('/trashedUsers',[UserController::class,'trashedUsers'])->name('users.trashedUsers');
  Route::delete('userTrashed/{id}',[UserController::class,'clearAll'])->name('users.clearAll');
  Route::get('restore/{id}',[UserController::class,'restore'])->name('users.restore');
+ Route::get('edit/{id}', [UserController::class, 'edit'])->name('users.edit');
 });
 Route::prefix('products')->group(function () {
 Route::get('/',[ProductController::class,'index'])->name('products.index');
+Route::get('/drink',[ProductController::class,'showDrinks'])->name('products.drink');
+Route::get('view',[ProductController::class,'viewProducts'])->name('products.view');
 });
